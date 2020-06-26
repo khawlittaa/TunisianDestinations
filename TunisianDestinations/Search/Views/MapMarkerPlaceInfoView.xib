@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MapMarkerPlaceInfoView" customModule="TunisianDestinations" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="146"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Name Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvo-AA-Gi2">
+                    <rect key="frame" x="10" y="10" width="282" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSM-C1-Ocb">
+                    <rect key="frame" x="10" y="44" width="100" height="20"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="fNb-3h-juG"/>
+                        <constraint firstAttribute="height" constant="20" id="nIy-DL-nAU"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="place adress goes hers" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK9-XG-3x8">
+                    <rect key="frame" x="10" y="74.5" width="282" height="20.5"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.18039215689999999" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20.5" id="73C-n6-0IA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-gm-ZmF">
+                    <rect key="frame" x="112" y="43.5" width="90" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUb-8K-AIB">
+                    <rect key="frame" x="212" y="44" width="80" height="20"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Td2-lv-aZW"/>
+                        <constraint firstAttribute="height" constant="20" id="ozp-G0-dX1"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="place type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIh-jy-Liu">
+                    <rect key="frame" x="10" y="115" width="83.5" height="21"/>
+                    <color key="backgroundColor" red="0.1176470588" green="0.64313725489999995" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lK9-XG-3x8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="6Be-kC-9oJ"/>
+                <constraint firstItem="ENp-gm-ZmF" firstAttribute="centerY" secondItem="gSM-C1-Ocb" secondAttribute="centerY" id="8ni-Cc-1gr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ZIh-jy-Liu" secondAttribute="bottom" constant="10" id="9Ix-ne-cR9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DUb-8K-AIB" secondAttribute="trailing" constant="10" id="HV8-i2-naV"/>
+                <constraint firstItem="ZIh-jy-Liu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="LHa-Ud-TZA"/>
+                <constraint firstItem="lK9-XG-3x8" firstAttribute="top" secondItem="ENp-gm-ZmF" secondAttribute="bottom" constant="10" id="LaQ-vx-QCc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lK9-XG-3x8" secondAttribute="trailing" constant="10" id="QrJ-Ip-IOC"/>
+                <constraint firstItem="ENp-gm-ZmF" firstAttribute="leading" secondItem="gSM-C1-Ocb" secondAttribute="trailing" constant="2" id="RN9-9q-jFn"/>
+                <constraint firstItem="Xvo-AA-Gi2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Z3F-q5-v2U"/>
+                <constraint firstItem="DUb-8K-AIB" firstAttribute="leading" secondItem="ENp-gm-ZmF" secondAttribute="trailing" constant="10" id="ag9-oa-AoG"/>
+                <constraint firstItem="gSM-C1-Ocb" firstAttribute="top" secondItem="Xvo-AA-Gi2" secondAttribute="bottom" constant="10" id="dip-cs-vgc"/>
+                <constraint firstItem="DUb-8K-AIB" firstAttribute="centerY" secondItem="ENp-gm-ZmF" secondAttribute="centerY" id="lh2-39-aB6"/>
+                <constraint firstItem="Xvo-AA-Gi2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="wmF-Ve-bnO"/>
+                <constraint firstAttribute="trailing" secondItem="Xvo-AA-Gi2" secondAttribute="trailing" constant="10" id="yDq-KQ-Psu"/>
+                <constraint firstItem="gSM-C1-Ocb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="yZw-oB-2u7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="placeAdressLbl" destination="lK9-XG-3x8" id="WFD-Mz-83I"/>
+                <outlet property="placeNameLbl" destination="Xvo-AA-Gi2" id="3dF-xU-8Ka"/>
+                <outlet property="placeRatingView" destination="gSM-C1-Ocb" id="j5r-D4-tbn"/>
+                <outlet property="placeTypeLbl" destination="ZIh-jy-Liu" id="Emh-1w-lJf"/>
+                <outlet property="priceRangeView" destination="DUb-8K-AIB" id="TdD-H4-HxC"/>
+                <outlet property="totalReviewsLbl" destination="ENp-gm-ZmF" id="1KE-Vs-K0w"/>
+            </connections>
+            <point key="canvasLocation" x="46.376811594202906" y="-182.8125"/>
+        </view>
+    </objects>
+</document>

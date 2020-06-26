@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="EventInfoCell" rowHeight="163" id="KGk-i7-Jjw" customClass="EventInfoCell" customModule="TunisianDestinations" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="163"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="163"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gydc" translatesAutoresizingMaskIntoConstraints="NO" id="Hp5-6x-otJ">
+                        <rect key="frame" x="2" y="2" width="80" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="5ED-Wm-PCj"/>
+                            <constraint firstAttribute="width" constant="80" id="TpX-hj-I6D"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GYDC 2.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpf-sd-Vcs">
+                        <rect key="frame" x="122" y="10" width="186" height="29"/>
+                        <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT &amp; Tech" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgK-l7-CtW">
+                        <rect key="frame" x="122" y="45" width="186" height="16"/>
+                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel Ksar Kantaoui Sousse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="or5-Ef-B6S">
+                        <rect key="frame" x="122" y="65" width="186" height="16"/>
+                        <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/10/2020 To 14/10/2020" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAh-w5-4Bo">
+                        <rect key="frame" x="122" y="91" width="166" height="16"/>
+                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08:00  To 18:00 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU0-1c-iqc">
+                        <rect key="frame" x="122" y="109" width="166" height="14.5"/>
+                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="11"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120 Places Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgA-sp-cLA">
+                        <rect key="frame" x="122" y="133.5" width="166" height="16"/>
+                        <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PU0-1c-iqc" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="0eV-es-ZVO"/>
+                    <constraint firstAttribute="bottom" secondItem="Hp5-6x-otJ" secondAttribute="bottom" constant="2" id="342-qg-I6U"/>
+                    <constraint firstItem="dgK-l7-CtW" firstAttribute="top" secondItem="Lpf-sd-Vcs" secondAttribute="bottom" constant="6" id="FuY-S8-xOD"/>
+                    <constraint firstItem="BgA-sp-cLA" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="Hma-BU-BLI"/>
+                    <constraint firstItem="Hp5-6x-otJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="Iky-RV-HSp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PU0-1c-iqc" secondAttribute="trailing" constant="20" id="LSB-hN-Xwj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DAh-w5-4Bo" secondAttribute="trailing" constant="20" id="N9k-jO-1JY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="BgA-sp-cLA" secondAttribute="trailing" constant="20" id="Pfz-Cn-DjG"/>
+                    <constraint firstItem="Hp5-6x-otJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="Vvp-bF-rzH"/>
+                    <constraint firstItem="DAh-w5-4Bo" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="WWl-Xv-6d7"/>
+                    <constraint firstAttribute="trailing" secondItem="dgK-l7-CtW" secondAttribute="trailing" constant="20" id="Y7K-yH-04g"/>
+                    <constraint firstAttribute="trailing" secondItem="Lpf-sd-Vcs" secondAttribute="trailing" constant="20" id="Ykh-b2-HDH"/>
+                    <constraint firstItem="or5-Ef-B6S" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="aaS-lv-4EQ"/>
+                    <constraint firstItem="PU0-1c-iqc" firstAttribute="top" secondItem="DAh-w5-4Bo" secondAttribute="bottom" constant="2" id="eop-eA-l8z"/>
+                    <constraint firstAttribute="trailing" secondItem="or5-Ef-B6S" secondAttribute="trailing" constant="20" id="knn-tO-bxs"/>
+                    <constraint firstItem="Lpf-sd-Vcs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lUa-fm-FAY"/>
+                    <constraint firstItem="or5-Ef-B6S" firstAttribute="top" secondItem="dgK-l7-CtW" secondAttribute="bottom" constant="4" id="mCH-y7-N16"/>
+                    <constraint firstItem="Lpf-sd-Vcs" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="mOH-xm-YN4"/>
+                    <constraint firstItem="BgA-sp-cLA" firstAttribute="top" secondItem="PU0-1c-iqc" secondAttribute="bottom" constant="10" id="n5A-QI-o4j"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="BgA-sp-cLA" secondAttribute="bottom" constant="2.5" id="p9F-yd-5aU"/>
+                    <constraint firstItem="dgK-l7-CtW" firstAttribute="leading" secondItem="Hp5-6x-otJ" secondAttribute="trailing" constant="40" id="y7n-wN-geu"/>
+                    <constraint firstItem="DAh-w5-4Bo" firstAttribute="top" secondItem="or5-Ef-B6S" secondAttribute="bottom" constant="10" id="z4A-br-yi7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="eventCoverImg" destination="Hp5-6x-otJ" id="tb3-8r-fmx"/>
+                <outlet property="eventGategoryLbl" destination="dgK-l7-CtW" id="uFK-T3-n9a"/>
+                <outlet property="eventNameLbl" destination="Lpf-sd-Vcs" id="Ewa-uW-8Q2"/>
+                <outlet property="eventTimesLbl" destination="PU0-1c-iqc" id="a5U-VA-otx"/>
+                <outlet property="eventsDatesLbl" destination="DAh-w5-4Bo" id="Ysy-zD-1bD"/>
+                <outlet property="evntLocationLbl" destination="or5-Ef-B6S" id="OgZ-hc-bZO"/>
+                <outlet property="numbrePlacesLbl" destination="BgA-sp-cLA" id="qML-mF-pbH"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="125.55803571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gydc" width="175.5" height="99"/>
+    </resources>
+</document>
